@@ -1,0 +1,22 @@
+[package]
+name = "tresorit-dropbox-discovery"
+version = "1.0.0"
+authors = ["Péter Budai <budai@tresorit.com>",
+           "Gergely Nagy <ngg@tresorit.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/tresorit/tresorit-dropbox-discovery"
+homepage = "https://github.com/tresorit/tresorit-dropbox-discovery"
+publish = false
+
+[dependencies]
+bytes = "0.4"
+dns-lookup = "0.9"
+net2 = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+tokio = "0.1"
+tokio-io = "0.1"
+
+[profile.release]
+lto = true
