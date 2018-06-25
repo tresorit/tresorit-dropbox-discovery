@@ -1,6 +1,7 @@
 # Dropbox Discovery Tool by Tresorit
  
 [![Build Status](https://api.travis-ci.org/tresorit/tresorit-dropbox-discovery.svg?branch=master)](https://travis-ci.org/tresorit/tresorit-dropbox-discovery)
+[![Latest Version](https://img.shields.io/crates/v/tresorit-dropbox-discovery.svg)](https://crates.io/crates/tresorit-dropbox-discovery)
 
 It helps you discovering running Dropbox instances on your local network.
 When the discovery process starts, it will open UDP port 17500 to watch

@@ -6,7 +6,16 @@ authors = ["Péter Budai <budai@tresorit.com>",
 license = "Apache-2.0"
 repository = "https://github.com/tresorit/tresorit-dropbox-discovery"
 homepage = "https://github.com/tresorit/tresorit-dropbox-discovery"
-publish = false
+description = """
+It helps you discovering running Dropbox instances on your local network.
+When the discovery process starts, it will open UDP port 17500 to watch
+incoming Dropbox LAN Sync packets from within the local wired or wireless
+network your computer is currently connected to.  
+In case your local network contains of multiple IP subnets (eg. a separate
+wired and wireless network, or multiple Wi-Fi networks), you'll need to
+re-run the tool to repeat the discovery for each network to get a complete
+result.
+"""
 
 [badges]
 travis-ci = { repository = "tresorit/tresorit-dropbox-discovery" }
