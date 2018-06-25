@@ -8,6 +8,9 @@ repository = "https://github.com/tresorit/tresorit-dropbox-discovery"
 homepage = "https://github.com/tresorit/tresorit-dropbox-discovery"
 publish = false
 
+[badges]
+travis-ci = { repository = "tresorit/tresorit-dropbox-discovery" }
+
 [dependencies]
 bytes = "0.4"
 dns-lookup = "0.9"
