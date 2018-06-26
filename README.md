@@ -15,7 +15,7 @@ result.
 ## Build instructions
 
 
-You can download the latest prebuilt binaries for Windows, macOS and Linux from the Releases page.
+You can download the latest prebuilt binaries for Windows, macOS and Linux from the [Releases page](https://github.com/tresorit/tresorit-dropbox-discovery/releases).
 
 You can also build it manually, by installing Rust 1.26.0 or newer and then running the following commands:
 ```sh
